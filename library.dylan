@@ -24,4 +24,8 @@ define module advent-of-code-2022-impl
   use file-system;
   use format-out;
   use streams;
+
+  export
+    find-top-3,
+    find-replacement-index;
 end module;
